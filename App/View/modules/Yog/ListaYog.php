@@ -8,17 +8,16 @@
     
 </head>
 <body>
-<img scr="https://pt.dreamstime.com/beleza-do-prato-%C3%A0-noite-estrelas-e-luas-adjacentes-ao-belo-c%C3%A9u-noturno-esta-imagem-reflete-uma-paz-harmoniosa-tomada-sobre-o-image221357618">
 <center>
     <style>
-    input{
+    input,p{
         font-size: 40px;
-        background-color:whitesmoke;
+        background-color:white;
         font-family: 'Blaka', cursive;
             font-family: 'Pacifico', cursive;
     }
 
-    label,button,legend{
+    label,button,legend,p{
         font-size: 40px;
         font-family: 'Blaka', cursive;
             font-family: 'Pacifico', cursive;
@@ -30,21 +29,26 @@
         text-align: center;
     }
     body{
-            background-color: white;
+            background-color: orange;
         }
+     
     </style>
 </head>
 <body>
     <center>
+ 
+    <h1><img src="https://cea.vtexassets.com/arquivos/ids/49200650-800-auto?v=637639500936170000&width=800&height=auto&aspect=true" height="1000px" width="200px" align="left"></h1>
+    <h1><img src="https://cea.vtexassets.com/arquivos/ids/49200650-800-auto?v=637639500936170000&width=800&height=auto&aspect=true" height="1000px" width="200px" align="right"></h1>
+    <img src="https://cdn.mangayabu.top/mangas/yu-gi-oh/capitulo-93/00.jpg"> 
 
-    
-    <fieldset>
-        <legend>Login Yogioh Cartas</legend>
+    <br>
+    <br>
 
-        <form method="post" action="/yog/form/save">
+    <p>Login Yogioh</p>
+
+        <form method="post" action="/Yog/form">
 
 <center>
-<h1> <img scr="<img loading="lazy" class="aligncenter wp-image-69332 size-full" src="https://i1.wp.com/www.jbox.com.br/wp/wp-content/uploads/2019/12/yugioh-banner.jpg?resize=774%2C306&amp;quality=99&amp;strip=all&amp;ssl=1" sizes="(max-width: 774px) 100vw, 774px" srcset="https://i1.wp.com/www.jbox.com.br/wp/wp-content/uploads/2019/12/yugioh-banner.jpg?resize=774%2C306&amp;quality=99&amp;strip=all&amp;ssl=1 774w, https://www.jbox.com.br/wp/wp-content/uploads/2019/12/yugioh-banner-768x304.jpg 768w" alt="Imagem: Yami Yugi em 'Yu-Gi-Oh!'." width="768" height="304" alt="Yog" width=60 height=40> </h1>
 <center>
             <input type="hidden" value="<?= $model->id ?>" name="id" />
             
@@ -67,7 +71,8 @@
 
             <br>
             <br>
-            <button type="submit">Login!</button>
+            <form method="post" action="/Yog/form">
+            <button type="submit">Login</button>
             <br>
 
             </table>
